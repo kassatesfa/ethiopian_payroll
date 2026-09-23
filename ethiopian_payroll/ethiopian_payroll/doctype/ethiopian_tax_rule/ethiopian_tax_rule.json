@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-09-23 15:31:55.159544",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tax_rule_name",
+  "effective_from",
+  "effective_to",
+  "active",
+  "employee_pension_rate",
+  "employer_pension_rate",
+  "tax_free_threshold",
+  "tax_brackets"
+ ],
+ "fields": [
+  {
+   "fieldname": "tax_rule_name",
+   "fieldtype": "Data",
+   "label": "Tax Rule Name"
+  },
+  {
+   "fieldname": "effective_from",
+   "fieldtype": "Date",
+   "label": "Effective From"
+  },
+  {
+   "fieldname": "effective_to",
+   "fieldtype": "Date",
+   "label": "Effective To"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  },
+  {
+   "fieldname": "employee_pension_rate",
+   "fieldtype": "Percent",
+   "label": "Employee Pension Rate"
+  },
+  {
+   "fieldname": "employer_pension_rate",
+   "fieldtype": "Percent",
+   "label": "Employer Pension Rate"
+  },
+  {
+   "fieldname": "tax_free_threshold",
+   "fieldtype": "Currency",
+   "label": "Tax Free Threshold"
+  },
+  {
+   "fieldname": "tax_brackets",
+   "fieldtype": "Table",
+   "label": "Tax Brackets",
+   "options": "Ethiopian Tax Bracket"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-09-23 15:41:09.879137",
+ "modified_by": "Administrator",
+ "module": "Ethiopian Payroll",
+ "name": "Ethiopian Tax Rule",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

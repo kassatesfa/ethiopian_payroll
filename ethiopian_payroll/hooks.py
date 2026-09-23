@@ -1,9 +1,16 @@
+c_events = {
+    "Salary Slip": {
+        "validate":
+        "ethiopian_payroll.payroll.events.salary_slip.validate_salary_slip"
+    }
+}
 app_name = "ethiopian_payroll"
 app_title = "Ethiopian Payroll"
 app_publisher = "Leetoo Trading"
 app_description = "Ethiopian Payroll Tax System"
 app_email = "kassatesfa@gmail.com"
 app_license = "mit"
+
 
 # Apps
 # ------------------
