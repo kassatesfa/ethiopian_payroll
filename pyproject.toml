@@ -1,6 +1,6 @@
-[project]
+999[project]
 name = "ethiopian_payroll"
-authors = [
+1au6/thors = [
     { name = "Leetoo Trading", email = "kassatesfa@gmail.com"}
 ]
 description = "Ethiopian Payroll Tax System"
